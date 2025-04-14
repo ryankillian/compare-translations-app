@@ -1,0 +1,9 @@
+NOTICE
+
+This /data directory contains a curated set of translation samples from public domain and copyrighted works.
+
+Some passages include text from modern translations (e.g. Fagles, Fitzgerald) under the principle of fair use, for the purpose of brief, educational comparison. These samples are limited in scope and presented alongside other versions to help users understand stylistic differences.
+
+The selection, formatting, and pairing of passages represent original editorial work and took considerable time to compile. Please do not copy, rehost, or redistribute this content without permission.
+
+For questions about reuse, citation, or if you are a rights holder with concerns, please contact the project maintainer.

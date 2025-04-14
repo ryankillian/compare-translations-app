@@ -1,0 +1,108 @@
+{
+	"book": 11,
+	"sample_id": "11-083",
+	"lines": [83, 88],
+	"description": "Red Star",
+	"translations": [
+		{
+			"translator_id": "pope",
+			"translator_name": "Alexander Pope",
+			"year": 1715,
+			"form": "verse",
+			"public_domain": true,
+			"source": "Project Gutenberg",
+			"text": [
+				"As the red Star now shows his sanguine Fires",
+				"Thro' the dark Clouds, and now in Night retires;",
+				"Thus thro' the Ranks appear'd the Godlike Man,",
+				"Plung'd in the Rear, or blazing in the Van;",
+				"While streamy Sparkles, restless as he flies,",
+				"Flash from his Arms as Light'ning from the Skies."
+			],
+			"links": {
+				"view": "https://www.gutenberg.org/ebooks/6130",
+				"buy": "https://www.amazon.com/dp/B08T1YQ5D4?tag=your-affiliate-id"
+			}
+		},
+		{
+			"translator_id": "chapman-1611",
+			"translator_name": "George Chapman (1611)",
+			"year": 1611,
+			"version": "1611",
+			"form": "verse",
+			"public_domain": true,
+			"source": "Archive.org (original edition)",
+			"text": [
+				"And as amids the skie",
+				"We sometimes see an ominous starre, blaze cleare and dreadfully,",
+				"Then run his golden head in clouds, and straight appeare againe:",
+				"So <i>Hector</> otherwhiles did grace, the vaunt-guard, shining plaine;",
+				"Then in the rere-guard hid himselfe, and labour'd euery where,",
+				"To order and encourage all: his armor was so cleare,",
+				"And he applide each place so fast; that like a lightning throwne",
+				"Out of the shield of <i>Iupiter</>, in euery eye he shone."
+			],
+			"links": {
+				"view": "https://archive.org/details/iliad-of-homer-chapman-1611",
+				"buy": "https://www.amazon.com/dp/1857150604?tag=your-affiliate-id"
+			}
+		},
+		{
+			"translator_id": "chapman-modern",
+			"translator_name": "George Chapman (modern)",
+			"year": 1611,
+			"version": "modern",
+			"form": "verse",
+			"public_domain": true,
+			"source": "Project Gutenberg",
+			"text": [
+				"And as amids the sky",
+				"We sometimes see an ominous star blaze clear and dreadfully,",
+				"Then run his golden head in clouds, and straight appear again;",
+				"So Hector otherwhiles did grace the vaunt-guard, shining plain,",
+				"Then in the rear-guard hid himself, and labour’d ev’rywhere",
+				"To order and encourage all; his armour was so clear,",
+				"And he applied each place so fast, that, like a lightning thrown",
+				"Out of the shield of Jupiter, in ev’ry eye he shone."
+			],
+			"links": {
+				"view": "https://www.gutenberg.org/ebooks/1727"
+			}
+		},
+		{
+			"translator_id": "murray",
+			"translator_name": "A.T. Murray",
+			"year": 1924,
+			"form": "prose",
+			"public_domain": true,
+			"source": "Loeb Classical Library",
+			"text": [
+				"But for themselves they entered the sea and washed away the abundant sweat from shins and necks and thighs. And when the wave of the sea had washed the abundant sweat from their skin, and their hearts were refreshed, they went into polished baths and bathed. But when the twain had bathed and anointed them richly with oil, they sate them down at supper, and from the full mixing-bowl they drew off honey-sweet wine and made libation to Athene."
+			],
+			"links": {
+				"buy": "https://www.amazon.com/dp/0674995791?tag=your-affiliate-id"
+			}
+		},
+		{
+			"translator_id": "cowper",
+			"translator_name": "William Cowper",
+			"year": 1791,
+			"form": "verse",
+			"public_domain": true,
+			"source": "Project Gutenberg",
+			"text": [
+				"Then, descending to the sea,",
+				"Neck, thighs, and legs from sweat profuse they cleansed,",
+				"And, so refresh’d and purified, their last",
+				"Ablution in bright tepid baths perform’d.",
+				"Each thus completely laved, and with smooth oil",
+				"Anointed, at the well-spread board they sat,",
+				"And quaff’d, in honor of Minerva, wine",
+				"Delicious, from the brimming beaker drawn."
+			],
+			"links": {
+				"view": "https://www.gutenberg.org/ebooks/16452"
+			}
+		}
+	]
+}

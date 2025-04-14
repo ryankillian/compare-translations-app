@@ -1,0 +1,54 @@
+{
+	"pope": {
+		"name": "Alexander Pope",
+		"year": 1715,
+		"form": "verse",
+		"public_domain": true,
+		"description": "Heroic couplets in ornate 18th-century English. A poetic and grand rendering.",
+		"links": {
+			"view": "https://www.gutenberg.org/ebooks/6130",
+			"buy": "https://www.amazon.com/dp/B08T1YQ5D4?tag=your-affiliate-id"
+		}
+	},
+	"chapman-1611": {
+		"name": "George Chapman (1611)",
+		"year": 1611,
+		"form": "verse",
+		"public_domain": true,
+		"description": "Early modern English with dense, poetic phrasing. The first complete English translation.",
+		"links": {
+			"view": "https://archive.org/details/iliad-of-homer-chapman-1611",
+			"buy": "https://www.amazon.com/dp/1857150604?tag=your-affiliate-id"
+		}
+	},
+	"chapman-modern": {
+		"name": "George Chapman (modern)",
+		"year": 1611,
+		"form": "verse",
+		"public_domain": true,
+		"description": "Modernized spelling and formatting of Chapman's original 1611 translation.",
+		"links": {
+			"view": "https://www.gutenberg.org/ebooks/1727"
+		}
+	},
+	"cowper": {
+		"name": "William Cowper",
+		"year": 1791,
+		"form": "verse",
+		"public_domain": true,
+		"description": "Formal and serious blank verse in the style of Milton. Less poetic flourish than Pope.",
+		"links": {
+			"view": "https://www.gutenberg.org/ebooks/16452"
+		}
+	},
+	"murray": {
+		"name": "A.T. Murray",
+		"year": 1924,
+		"form": "prose",
+		"public_domain": true,
+		"description": "Loeb Classical Library translation. Straightforward, scholarly prose with Greek on facing pages.",
+		"links": {
+			"buy": "https://www.amazon.com/dp/0674995791?tag=your-affiliate-id"
+		}
+	}
+}
