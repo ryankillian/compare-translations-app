@@ -31,8 +31,6 @@ The site is live at:
 
 🌐 [https://which-translation.vercel.app/](https://which-translation.vercel.app/)
 
-Hosted on [Vercel](https://vercel.com/)
-
 ## 🗂 Structure
 
 ```
