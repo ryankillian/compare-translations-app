@@ -26,5 +26,14 @@ design_choices.md
 duel.code-workspace
 passages.txt
 translations.md
-gpt.txt
-
+gpt
+translators_odyssey.md
+scripts
+replace copy.txt
+replace json.txt
+replace.txt
+src/lib/data/iliad/raw.txt
+src/lib/data/odyssey/meta copy.json
+src/routes/books/*/vote/gemini.md
+src/routes/books/*/vote/working.svelte
+src/routes/books/*/translators/gemini.md

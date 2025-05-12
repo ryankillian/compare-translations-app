@@ -2,15 +2,59 @@
 	import { page } from '$app/state';
 	import { getDuelHistory, getWinStats, clearHistory } from '$lib/data/duelHistory.svelte';
 	import BarChart from '$lib/components/BarChart.svelte';
-	import TranslationCard from '$lib/components/TranslationCard.svelte';
+	import TranslationCard from '$lib/components/ResultPassageCard.svelte';
+	import StartVotingButton from '$lib/components/LinkButton.svelte';
 
 	const bookSlug = $derived(page.params.book);
-	const history = $derived(() => getDuelHistory(bookSlug));
-	const winStats = $derived(() => getWinStats(bookSlug));
+	let history = $state(getDuelHistory(page.params.book));
+	const winStats = $derived(() => getWinStats(page.params.book));
+
+	let storageSizeBytes = $state(0);
+	let storageSizeFormatted = $state('0 B');
+
+	function formatBytes(bytes: number, decimals = 2): string {
+		if (bytes === 0) return '0 B';
+		const k = 1024;
+		const dm = decimals < 0 ? 0 : decimals;
+		const sizes = ['B', 'KB', 'MB', 'GB', 'TB'];
+		const i = Math.floor(Math.log(bytes) / Math.log(k));
+		return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+	}
+
+	function calculateStorage() {
+		if (typeof localStorage === 'undefined') return; // Guard for SSR or environments without localStorage
+		const key = `duelHistory:${bookSlug}`;
+		const storedString = localStorage.getItem(key);
+		if (storedString) {
+			const byteSize = new TextEncoder().encode(storedString).length;
+			storageSizeBytes = byteSize;
+			storageSizeFormatted = formatBytes(byteSize);
+		} else {
+			storageSizeBytes = 0;
+			storageSizeFormatted = '0 B';
+		}
+	}
+
+	// Calculate initially and whenever the bookSlug changes
+	$effect(() => {
+		if (bookSlug) {
+			// Recalculate history for the potentially new book slug
+			history = getDuelHistory(bookSlug);
+			calculateStorage();
+		}
+	});
+
+	// Function to handle clearing history AND updating the display
+	function handleClearHistory() {
+		clearHistory(bookSlug);
+		history = []; // Update local reactive state
+		calculateStorage(); // Recalculate storage size
+	}
 </script>
 
-{#if history().length === 0}
+{#if history.length === 0}
 	<p class="text-gray-600">You haven't voted yet. Try a passage!</p>
+	<StartVotingButton href={`/books/${bookSlug}/vote`} label={'Start Voting →'} />
 {:else}
 	<div class="space-y-10">
 		<!-- 📊 Chart -->
@@ -24,13 +68,13 @@
 			<h2 class="mb-3 text-lg font-semibold">Past Votes</h2>
 
 			<ul class="divide-y rounded border bg-white text-sm">
-				{#each [...history()].reverse() as duel, i}
+				{#each [...history].reverse() as duel, i}
 					<details class="group px-4 py-3">
 						<summary
 							class="flex cursor-pointer list-none items-center justify-between hover:font-medium"
 						>
 							<span>
-								#{history().length - i} —
+								#{history.length - i} —
 								{#if duel.winner === duel.left}
 									<strong>{duel.leftName}</strong> 🏆 vs {duel.rightName}
 								{:else if duel.winner === duel.right}
@@ -52,13 +96,13 @@
 								<TranslationCard
 									translatorName={duel.leftName}
 									text={duel.leftText}
-									showTranslator={true}
+									year={duel.leftYear}
 									isWinner={duel.winner === duel.left}
 								/>
 								<TranslationCard
 									translatorName={duel.rightName}
 									text={duel.rightText}
-									showTranslator={true}
+									year={duel.rightYear}
 									isWinner={duel.winner === duel.right}
 								/>
 							</div>
@@ -71,12 +115,15 @@
 			</ul>
 
 			<!-- 🧹 Clear History -->
-			<div class="mt-6 flex justify-end">
+			<div class="mt-6 flex items-center justify-end gap-4">
+				<span class="text-xs text-gray-500"
+					>Storage Used: {storageSizeFormatted} ({storageSizeBytes} bytes)</span
+				>
 				<button
-					onclick={() => clearHistory(bookSlug)}
+					onclick={handleClearHistory}
 					class="rounded border border-red-600 px-3 py-1 text-sm text-red-600 transition hover:bg-red-50"
 				>
-					Clear History
+					Clear <i class="capitalize">{bookSlug}</i> History
 				</button>
 			</div>
 		</section>

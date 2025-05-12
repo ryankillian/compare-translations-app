@@ -1,54 +1,290 @@
 {
+	"chapman": {
+		"id": "chapman",
+		"name": "George Chapman",
+		"year": "1611",
+		"form": "verse",
+		"public_domain": true,
+		"description": "First complete English Iliad.",
+		"sample_source": {
+			"url": "https://name.umdl.umich.edu/A03512.0001.001",
+			"label": "[Michigan University] The Iliads of Homer prince of poets"
+		},
+		"notes": "The samples are based on the first edition, accessible via the 'Sample Source' link. Note that widely available digital versions (e.g., Project Gutenberg) are often heavily modernized and differ significantly from this original text. For a recommended modern printed copy, consider the Princeton University Press edition ('Chapman's Homer: The Iliad').",
+		"reviews": [
+			{
+				"text": "The translation is a delight to read (or at least to browse through)...",
+				"attribution": "Ian Johnston"
+			}
+		]
+	},
 	"pope": {
+		"id": "pope",
 		"name": "Alexander Pope",
-		"year": 1715,
+		"year": "1720",
 		"form": "verse",
+		"publisher": "Bernard Lintot",
 		"public_domain": true,
-		"description": "Heroic couplets in ornate 18th-century English. A poetic and grand rendering.",
-		"links": {
-			"view": "https://www.gutenberg.org/ebooks/6130",
-			"buy": "https://www.amazon.com/dp/B08T1YQ5D4?tag=your-affiliate-id"
-		}
-	},
-	"chapman-1611": {
-		"name": "George Chapman (1611)",
-		"year": 1611,
-		"form": "verse",
-		"public_domain": true,
-		"description": "Early modern English with dense, poetic phrasing. The first complete English translation.",
-		"links": {
-			"view": "https://archive.org/details/iliad-of-homer-chapman-1611",
-			"buy": "https://www.amazon.com/dp/1857150604?tag=your-affiliate-id"
-		}
-	},
-	"chapman-modern": {
-		"name": "George Chapman (modern)",
-		"year": 1611,
-		"form": "verse",
-		"public_domain": true,
-		"description": "Modernized spelling and formatting of Chapman's original 1611 translation.",
-		"links": {
-			"view": "https://www.gutenberg.org/ebooks/1727"
-		}
+		"description": "Highly influential translation.",
+		"sample_source": {
+			"url": "https://quod.lib.umich.edu/cgi/t/text/text-idx?rgn=full+text&q1=The+iliad+of+homer&c=ecco&cc=ecco&type=simple",
+			"label": "[Michigan University] The Iliad: of Homer. Translated by Mr. Pope."
+		},
+		"notes": "Pope's first edition, originally published in six volumes, is the recommended version of this work. Unlike many subsequent reprints and common digital versions (such as Project Gutenberg), the first edition preserves Pope's intended text and includes his extensive scholarly notes. The text used for the samples on this site is taken from a transcribed digital version provided by Michigan University (see 'Sample Source'). While this source offers recommended access to the first edition's text and notes, the most complete reading experience comes from a high-definition digital scan of the first edition. Versions available via platforms like HathiTrust are particularly recommended as they preserve the original 18th-century printing and typography.",
+
+		"reviews": [
+			{
+				"text": "It is certainly the noblest version of poetry which the world has ever seen; and its publication must therefore be considered as one of the great events in the annals of learning",
+				"attribution": "Samuel Johnson"
+			}
+		]
 	},
 	"cowper": {
+		"id": "cowper",
 		"name": "William Cowper",
-		"year": 1791,
+		"year": "1791",
 		"form": "verse",
+		"publisher": "J. Johnson",
 		"public_domain": true,
-		"description": "Formal and serious blank verse in the style of Milton. Less poetic flourish than Pope.",
-		"links": {
-			"view": "https://www.gutenberg.org/ebooks/16452"
+		"description": "Formal Miltonic blank verse aiming for strict fidelity to the Greek.",
+		"sample_source": {
+			"url": "https://www.gutenberg.org/files/16452/16452-h/16452-h.htm",
+			"label": "[Project Gutenberg] The Iliad of Homer"
 		}
 	},
+	"buckley": {
+		"id": "buckley",
+		"name": "Theodore Alois Buckley",
+		"year": "1851",
+		"form": "prose",
+		"publisher": "Henry G. Bohn, London",
+		"public_domain": true,
+		"description": "Accurate prose translation.",
+		"sample_source": {
+			"url": "https://www.gutenberg.org/files/22382/22382-h/22382-h.htm",
+			"label": "[Project Gutenberg] The Iliad of Homer"
+		}
+	},
+	"bryant": {
+		"id": "bryant",
+		"name": "William Cullen Bryant",
+		"year": "1870",
+		"form": "verse",
+		"publisher": "Houghton, Mifflin and Company, Boston",
+		"public_domain": true,
+		"description": "Fluent, accurate, and readable blank verse aiming for a natural narrative style.",
+		"sample_source": {
+			"url": "https://name.umdl.umich.edu/AHX2283.0001.001",
+			"label": "[Michigan University] The Iliad of Homer"
+		}
+	},
+	"caldcleugh": {
+		"id": "caldcleugh",
+		"name": "W. G. Caldcleugh",
+		"year": "1870",
+		"form": "verse",
+		"publisher": "J. B. Lippincott & Co., Philadelphia",
+		"public_domain": true,
+		"description": "Entertaining and energetic blank verse translation.",
+		"sample_source": {
+			"url": "https://archive.org/details/iliad01caldgoog",
+			"label": "[Archive.org] The Iliad of Homer"
+		}
+	},
+	"butler": {
+		"id": "butler",
+		"name": "Samuel Butler",
+		"year": "1898",
+		"form": "prose",
+		"publisher": "Longmans, Green, and Co.",
+		"public_domain": true,
+		"description": "Well-known prose translation; accurate, unpretentious, and fluent.",
+		"sample_source": {
+			"url": "https://www.gutenberg.org/cache/epub/2199/pg2199-images.html",
+			"label": "[Project Gutenberg] The Iliad of Homer"
+		},
+		"reviews": [
+			{
+				"text": "Butler’s translation is among the best known and most popular prose translations of the Iliad—and deservedly so.",
+				"attribution": "Ian Johnston"
+			}
+		]
+	},
 	"murray": {
+		"id": "murray",
 		"name": "A.T. Murray",
-		"year": 1924,
+		"year": "1924",
+		"form": "prose",
+		"publisher": "Loeb Classical Library",
+		"public_domain": true,
+		"description": "Scholarly, literal prose with facing Greek text (Loeb).",
+		"sample_source": {
+			"url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0134",
+			"label": "[Perseus Digital Library] Homer. The Iliad with an English Translation"
+		}
+	},
+	"rouse": {
+		"id": "rouse",
+		"name": "W. H. D. Rouse",
+		"year": "1938",
+		"form": "prose",
+		"publisher": "Mentor Books",
+		"public_domain": false,
+		"description": "Fast-paced and accessible."
+	},
+	"rieu": {
+		"id": "rieu",
+		"name": "Emile Victor Rieu",
+		"year": "1950",
+		"form": "prose",
+		"publisher": "Penguin Books",
+		"public_domain": false,
+		"description": "Clear, accessible modern prose."
+	},
+	"lattimore": {
+		"id": "lattimore",
+		"name": "Richmond Lattimore",
+		"year": "1951",
+		"form": "verse",
+		"publisher": "University of Chicago Press",
+		"public_domain": false,
+		"description": "Literal verse; formal and syntactically dense."
+	},
+	"graves": {
+		"id": "graves",
+		"name": "Robert Graves",
+		"year": "1960",
+		"form": "verse",
+		"publisher": "Cassell & Company (UK), Doubleday (US)",
+		"public_domain": false,
+		"description": "Unusual mix of prose and verse."
+	},
+	"rees": {
+		"id": "rees",
+		"name": "Ennis Rees",
+		"year": "1963",
+		"form": "verse",
+		"publisher": "Random House (US), Modern Library (imprint)",
+		"public_domain": false,
+		"description": "Straightforward verse; faithful and readable."
+	},
+	"fitzgerald": {
+		"id": "fitzgerald",
+		"name": "Robert Fitzgerald",
+		"year": "1974",
+		"form": "verse",
+		"publisher": "Anchor Books / Doubleday",
+		"public_domain": false,
+		"description": "Poetic and fluid; loosely faithful.",
+		"reviews": [
+			{
+				"text": "One of the finest English renditions of the Iliad available anywhere.",
+				"attribution": "Ian Johnston"
+			}
+		]
+	},
+	"hammond": {
+		"id": "hammond",
+		"name": "Martin Hammond",
+		"year": "1987",
+		"form": "prose",
+		"publisher": "Penguin Books",
+		"public_domain": false,
+		"description": "Precise, close-to-Greek prose."
+	},
+	"fagles": {
+		"id": "fagles",
+		"name": "Robert Fagles",
+		"year": "1990",
+		"form": "verse",
+		"publisher": "Viking Penguin",
+		"public_domain": false,
+		"description": "Lyrical, dramatic modern verse."
+	},
+	"lombardo": {
+		"id": "lombardo",
+		"name": "Stanley Lombardo",
+		"year": "1997",
+		"form": "verse",
+		"publisher": "Hackett Publishing Company",
+		"public_domain": false,
+		"description": "Fast-paced, informal modern verse."
+	},
+	"johnston": {
+		"id": "johnston",
+		"name": "Ian Johnston",
+		"year": "2002",
+		"form": "verse",
+		"publisher": "Richer Resources Publications",
+		"public_domain": true,
+		"description": "Modern, accessible public domain verse translation.",
+		"sample_source": {
+			"url": "https://www.johnstoniatexts.x10host.com/homer/iliad_title.html",
+			"label": "[johnstoniatexts] Homer Iliad"
+		},
+		"notes": "Johnston's translation was first published online in 2002 and later in print by Richer Resources Publications in 2006."
+	},
+	"kline": {
+		"id": "kline",
+		"name": "A.S. Kline",
+		"year": "2009",
 		"form": "prose",
 		"public_domain": true,
-		"description": "Loeb Classical Library translation. Straightforward, scholarly prose with Greek on facing pages.",
-		"links": {
-			"buy": "https://www.amazon.com/dp/0674995791?tag=your-affiliate-id"
+		"description": "Simple public domain prose; freely available.",
+		"sample_source": {
+			"url": "https://www.poetryintranslation.com/PITBR/Greek/Ilhome.php",
+			"label": "Homer: The Iliad"
 		}
+	},
+	"verity": {
+		"id": "verity",
+		"name": "Anthony Verity",
+		"year": "2010",
+		"form": "verse",
+		"publisher": "Oxford University Press",
+		"public_domain": false,
+		"description": "Formal verse with prose-like tone."
+	},
+	"mitchell": {
+		"id": "mitchell",
+		"name": "Stephen Mitchell",
+		"year": "2011",
+		"form": "verse",
+		"publisher": "Free Press",
+		"public_domain": false,
+		"description": "Streamlined, modern verse; abridged Greek."
+	},
+	"green": {
+		"id": "green",
+		"name": "Peter Green",
+		"year": "2015",
+		"form": "verse",
+		"publisher": "University of California Press",
+		"public_domain": false,
+		"description": "Faithful verse with detailed notes.",
+		"reviews": [
+			{
+				"text": "Best characterized as an update on Lattimore’s.",
+				"attribution": "James Romm"
+			}
+		]
+	},
+	"alexander": {
+		"id": "alexander",
+		"name": "Caroline Alexander",
+		"year": "2015",
+		"form": "verse",
+		"publisher": "Ecco",
+		"public_domain": false,
+		"description": "Line-matched verse; formal and restrained."
+	},
+	"wilson": {
+		"id": "wilson",
+		"name": "Emily Wilson",
+		"year": "2023",
+		"form": "verse",
+		"publisher": "W. W. Norton",
+		"public_domain": false,
+		"description": "Rhythmic, modern verse; highly readable."
 	}
 }

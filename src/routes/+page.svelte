@@ -1,5 +1,5 @@
 <script lang="ts">
-	import StartVotingButton from '$lib/components/StartVotingButton.svelte';
+	import StartVotingButton from '$lib/components/LinkButton.svelte';
 	import { books } from '$lib/data/books';
 </script>
 
@@ -47,10 +47,10 @@
 						href={`/books/${book.slug}/translators`}
 						class="text-gray-600 transition hover:text-blue-600"
 					>
-						{book.translators.length} translations available
+						{book.translators} translations available
 					</a>
 
-					<StartVotingButton href={`/books/${book.slug}/vote`} />
+					<StartVotingButton href={`/books/${book.slug}/vote`} label="Start Comparing →" />
 				</div>
 			</div>
 		</li>

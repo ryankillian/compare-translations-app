@@ -2,11 +2,11 @@ export const books = [
 	{
 		title: 'The Iliad',
 		slug: 'iliad',
-		translators: ['Pope', 'Chapman', 'Lattimore', 'Fagles', 'Butler', 'Murray']
+		translators: 24
 	},
 	{
 		title: 'The Odyssey',
 		slug: 'odyssey',
-		translators: ['Butler', 'Fitzgerald', 'Fagles', 'Wilson']
+		translators: 23
 	}
 ];

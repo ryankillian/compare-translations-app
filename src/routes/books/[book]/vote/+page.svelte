@@ -1,28 +1,16 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import { getRandomDuel } from '$lib/utils/duel';
+	import type { PageData } from './$types';
 	import DuelDisplay from '$lib/components/DuelDisplay.svelte';
-	import type { TranslationSample } from '$lib/types';
 
-	import { page } from '$app/state';
-	const book = page.params.book;
-
-	let sample: TranslationSample | null = null;
-
-	async function loadSample() {
-		sample = await getRandomDuel(book);
-	}
-
-	async function handleVote(winnerId: string | null) {
-		console.log('Vote:', winnerId);
-		await loadSample();
-	}
-
-	onMount(loadSample);
+	const { data } = $props() as { data: PageData };
 </script>
 
-{#if sample}
-	<DuelDisplay {sample} onVote={handleVote} />
-{:else}
-	<p>Loading duel...</p>
-{/if}
+<div class="container mx-auto px-4 py-8">
+	{#if data.sample && data.translatorsInfoMap && data.translatorsInfoMap.size > 0}
+		{#key data.sample.sample_id}
+			<DuelDisplay sample={data.sample} translatorsInfoMap={data.translatorsInfoMap} />
+		{/key}
+	{:else}
+		<p class="text-center text-gray-500">Loading comparison data or no data available...</p>
+	{/if}
+</div>

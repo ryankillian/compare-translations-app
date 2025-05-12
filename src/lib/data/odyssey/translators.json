@@ -1,0 +1,261 @@
+{
+	"chapman": {
+		"name": "George Chapman",
+		"year": 1615,
+		"form": "verse",
+		"public_domain": true,
+		"description": "First complete English translation.",
+		"sample_source": {
+			"url": "https://name.umdl.umich.edu/A03515.0001.001",
+			"label": "[Michigan University] Homer's Odysses. Translated according to ye Greeke by. Geo: Chapman"
+		},
+
+		"notes": "The samples are based on the first edition, accessible via the 'Sample Source' link. Note that widely available digital versions (e.g., Project Gutenberg) are often heavily modernized and differ significantly from this original text. For a recommended modern printed copy, consider the Princeton University Press edition ('Chapman's Homer: The Odyssey').",
+		"reviews": [
+			{
+				"text": "His <i>Odyssey</i>, like his <i>Iliad</i>, is clear, vigorous, and still a pleasure to browse through (for all the liberties he takes with Homer’s text).",
+				"attribution": "Ian Johnston"
+			}
+		]
+	},
+	"pope": {
+		"name": "Alexander Pope",
+		"year": 1725,
+		"form": "verse",
+		"public_domain": true,
+		"description": "Highly influential translation in heroic couplets, celebrated for its poetic polish.",
+		"sample_source": {
+			"url": "https://catalog.hathitrust.org/Record/012309258/Home",
+			"label": "[HathiTrust] The Odyssey of Homer. (First Edition Example)"
+		},
+		"notes": "Pope's first edition is the recommended version of this work. Its original printing was notably well-produced. Unlike many subsequent reprints and common digital versions (such as Project Gutenberg), the first edition preserves Pope's intended text and includes the original, informative notes. The notes for The Odyssey were contributed by William Broome. Seeking out a digital copy of the first edition provides the most complete and authentic reading experience. The 'Sample Source' link provides an example of a high-quality digital scan of a first edition, derived from the New York Public Library's copy."
+	},
+	"cowper": {
+		"name": "William Cowper",
+		"year": "1791",
+		"form": "verse",
+		"public_domain": true,
+		"description": "Blank verse; sober and Miltonic in tone.",
+		"sample_source": {
+			"url": "https://www.gutenberg.org/cache/epub/24269/pg24269-images.html",
+			"label": "[Project Gutenberg] The Odyssey of Homer"
+		},
+		"notes": "The samples are based on the Project Gutenberg text, which is a reliable version for this translation. For reference, a digitized first edition is also available via HathiTrust (catalog.hathitrust.org/Record/007699906).",
+		"reviews": [
+			{
+				"text": "Cowper’s translation has endured, not as an especially popular choice, but one which people seem to consult from time to time.",
+				"attribution": "Ian Johnston"
+			}
+		]
+	},
+	"buckley": {
+		"name": "Theodore Alois Buckley",
+		"year": "1851",
+		"form": "prose",
+		"public_domain": true,
+		"publisher": "Henry G. Bohn",
+		"description": "Victorian prose.",
+		"sample_source": {
+			"url": "https://en.wikisource.org/wiki/The_Odyssey_of_Homer,_with_the_Hymns,_Epigrams,_and_Battle_of_the_Frogs_and_Mice/The_Odyssey",
+			"label": "[wikisource] The Odyssey of Homer, with the Hymns, Epigrams, and Battle of the Frogs and Mice"
+		}
+	},
+	"worsley": {
+		"name": "Philip Stanhope Worsley",
+		"year": "1861",
+		"form": "verse",
+		"public_domain": true,
+		"description": "Spenserian stanzas.",
+		"sample_source": {
+			"url": "https://archive.org/details/odysseyhom01home",
+			"label": "[Archive.org - U. Toronto] The Odyssey of Homer Vol. 1"
+		},
+		"notes": "Samples are based on the University of Toronto copy hosted on Archive.org (link above covers Vol 1; search Archive.org for Vol 2). An 1895 edition is also available via HathiTrust (catalog.hathitrust.org/Record/011821251)."
+	},
+	"bryant": {
+		"name": "William Cullen Bryant",
+		"year": "1871",
+		"form": "verse",
+		"public_domain": true,
+		"publisher": "J.R. Osgood and Co",
+		"description": " Blank verse; fluent and restrained.",
+		"sample_source": {
+			"url": "https://archive.org/details/OdysseyOfHomerV1",
+			"label": "[Ohio State University Library] The Odyssey of Homer"
+		}
+	},
+	"barnard": {
+		"name": "Mordaunt Barnard",
+		"year": "1876",
+		"form": "verse",
+		"public_domain": true,
+		"publisher": "Williams and Norgate",
+		"description": "Blank verse.",
+		"sample_source": {
+			"url": "https://archive.org/details/odysseyofhomerre00homerich",
+			"label": "[ University of California Libraries] The Odyssey of Homer"
+		}
+	},
+	"butler": {
+		"name": "Samuel Butler",
+		"year": "1900",
+		"form": "prose",
+		"public_domain": true,
+		"description": "Straightforward prose.",
+		"sample_source": {
+			"url": "https://classics.mit.edu/Homer/odyssey.html",
+			"label": "[MIT Classics] The Odyssey"
+		},
+		"notes": "The Project Gutenberg version is also a reliable source for Butler's text."
+	},
+	"murray": {
+		"name": "A.T. Murray",
+		"year": "1924",
+		"form": "prose",
+		"publisher": "Loeb Classical Library",
+		"public_domain": true,
+		"description": "Scholarly, literal prose translation presented with the original Greek text on facing pages.",
+		"sample_source": {
+			"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0136",
+			"label": "[Perseus Digital Library] Homer, Odyssey (Vol 1)"
+		},
+		"notes": "The Loeb editions are the standard choice for parallel Greek/English text."
+	},
+	"rouse": {
+		"id": "rouse",
+		"name": "W. H. D. Rouse",
+		"year": "1937",
+		"form": "prose",
+		"publisher": "New American Library",
+		"public_domain": false,
+		"description": "Fast, informal prose."
+	},
+	"rieu": {
+		"name": "Emile Victor Rieu",
+		"year": "1945",
+		"form": "prose",
+		"publisher": "Penguin Books",
+		"public_domain": false,
+		"description": "Popular, accessible prose.",
+		"reviews": [
+			{
+				"text": "Still a top choice for readers seeking a prose translation, especially the revised edition (by P. Jones & D.C.H. Rieu).",
+				"attribution": "Ian Johnston"
+			}
+		]
+	},
+	"fitzgerald": {
+		"name": "Robert Fitzgerald",
+		"year": "1961",
+		"form": "verse",
+		"publisher": "Doubleday",
+		"public_domain": false,
+		"description": "Graceful, poetic verse.",
+		"reviews": [
+			{
+				"text": "One of the best, if not the best, modern rendition[s] of Homer into English verse.",
+				"attribution": "Ian Johnston"
+			}
+		]
+	},
+	"lattimore": {
+		"name": "Richmond Lattimore",
+		"year": "1965",
+		"form": "verse",
+		"publisher": "Harper & Row",
+		"public_domain": false,
+		"description": "Literal verse; formal tone.",
+		"notes": "Often praised for fidelity; readers may wish to sample the distinct style before committing."
+	},
+	"shewring": {
+		"name": "Walter Shewring",
+		"year": "1990",
+		"form": "prose",
+		"publisher": "Oxford University Press",
+		"public_domain": false,
+		"description": "Plain, careful prose."
+	},
+	"mandelbaum": {
+		"name": "Allen Mandelbaum",
+		"year": "1990",
+		"form": "verse",
+		"publisher": "University of California Press",
+		"public_domain": false,
+		"description": "Formal blank verse."
+	},
+	"fagles": {
+		"name": "Robert Fagles",
+		"year": "1996",
+		"form": "verse",
+		"publisher": "Viking Penguin",
+		"public_domain": false,
+		"description": "Dramatic, lyrical verse."
+	},
+	"hammond": {
+		"id": "hammond",
+		"name": "Martin Hammond",
+		"year": "2000",
+		"form": "prose",
+		"publisher": "Bristol Classical Press",
+		"public_domain": false,
+		"description": "Clear, faithful prose."
+	},
+	"lombardo": {
+		"name": "Stanley Lombardo",
+		"year": "2000",
+		"form": "verse",
+		"publisher": "Hackett Publishing Company",
+		"public_domain": false,
+		"description": "Lively, modern verse."
+	},
+	"johnston": {
+		"id": "johnston",
+		"name": "Ian Johnston",
+		"year": "2006",
+		"form": "verse",
+		"publisher": "Richer Resources Publications",
+		"public_domain": true,
+		"description": "Readable public domain verse.",
+		"sample_source": {
+			"url": "https://johnstoniatexts.x10host.com/homer/odysseytofc.html",
+			"label": "[johnstoniatexts] Homer Odyssey"
+		},
+		"notes": "His separate document, 'Published English Translations of Homer’s Iliad and Odyssey', provides an excellent overview of available translations and is highly recommended for further reading."
+	},
+	"kline": {
+		"id": "kline",
+		"name": "A.S. Kline",
+		"year": "2005",
+		"form": "prose",
+		"public_domain": true,
+		"description": "Simple public domain prose.",
+		"sample_source": {
+			"url": "https://www.poetryintranslation.com/PITBR/Greek/Odhome.php",
+			"label": "Homer: The Odyssey"
+		}
+	},
+	"stein": {
+		"name": "Charles Stein",
+		"year": "2008",
+		"form": "verse",
+		"publisher": "North Atlantic Books",
+		"public_domain": false,
+		"description": "Esoteric and poetic verse."
+	},
+	"mitchell": {
+		"name": "Stephen Mitchell",
+		"year": "2013",
+		"form": "verse",
+		"publisher": "Atria Books",
+		"public_domain": false,
+		"description": "Fluid, condensed verse."
+	},
+	"wilson": {
+		"name": "Emily Wilson",
+		"year": "2017",
+		"form": "verse",
+		"publisher": "W. W. Norton & Company",
+		"public_domain": false,
+		"description": "Clear, rhythmic iambic verse."
+	}
+}
