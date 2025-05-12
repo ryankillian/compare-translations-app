@@ -37,3 +37,7 @@ src/lib/data/odyssey/meta copy.json
 src/routes/books/*/vote/gemini.md
 src/routes/books/*/vote/working.svelte
 src/routes/books/*/translators/gemini.md
+src/lib/data/iliad/samples/*
+src/lib/data/odyssey/samples/*
+src/lib/data/iliad/meta-local.json
+src/lib/data/odyssey/meta-local.json
