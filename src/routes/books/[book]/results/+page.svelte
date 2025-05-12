@@ -6,6 +6,7 @@
 	import StartVotingButton from '$lib/components/LinkButton.svelte';
 
 	const bookSlug = $derived(page.params.book);
+
 	let history = $state(getDuelHistory(page.params.book));
 	const winStats = $derived(() => getWinStats(page.params.book));
 

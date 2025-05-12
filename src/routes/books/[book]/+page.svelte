@@ -2,7 +2,9 @@
 	import { page } from '$app/state';
 	import StartVotingButton from '$lib/components/LinkButton.svelte';
 	import ViewResultsButton from '$lib/components/LinkButton.svelte';
-
+	import type { PageData } from './$types';
+	const { data } = $props() as { data: PageData };
+	// data now contains { title, description, bookDisplayInfo: { name, slug } }
 	const book = page.params.book;
 </script>
 
@@ -11,8 +13,9 @@
 	<ViewResultsButton href={`/books/${book}/results`} label={'View Results →'} />
 </ul>
 
-<div class="mt-8 rounded-md border border-blue-300 bg-blue-50 p-4 text-blue-700">
-	<h3 class="mb-2 text-lg font-medium text-blue-800">Site Status & Your Data</h3>
+<!-- Paste this block AFTER your existing <ul class="list-inside list-disc space-y-2"> ... </ul> -->
+<div class="mt-8 rounded-md border border-yellow-300 bg-yellow-50 p-4 text-yellow-700">
+	<h3 class="mb-2 text-lg font-medium text-yellow-800">Site Status & Your Data</h3>
 	<p class="text-sm">
 		Thank you for visiting the page for <i class="capitalize">{book}</i>. This site is actively
 		being developed.

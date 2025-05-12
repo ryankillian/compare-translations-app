@@ -1,6 +1,7 @@
 import { error } from '@sveltejs/kit';
 import type { TranslationInfo } from '$lib/types';
 import type { PageLoad } from './$types';
+import { books } from '$lib/data/books'; // Import your books data
 
 interface TranslatorsFileModule {
 	default: {
@@ -9,34 +10,52 @@ interface TranslatorsFileModule {
 }
 
 export const load: PageLoad = async ({ params }) => {
-	const book = params.book;
+	const bookSlug = params.book;
 
 	try {
 		const module = (await import(
-			`../../../../lib/data/${book}/translators.json`
+			`../../../../lib/data/${bookSlug}/translators.json`
 		)) as TranslatorsFileModule;
 
 		const translatorsArray: TranslationInfo[] = Object.entries(module.default).map(
 			([id, details]) => ({ id, ...details })
 		);
 
-		if (translatorsArray.length === 0 && book) {
-			// Optionally, you might want to throw a 404 if a specific book is expected to have translators
-			// but the file is empty or doesn't exist for that book.
-			// For now, we'll allow an empty array to be returned, meaning "no translators listed for this book".
-		}
+		const bookData = books.find((b) => b.slug === bookSlug);
+		const bookName =
+			bookData?.title ||
+			(bookSlug
+				? bookSlug.charAt(0).toUpperCase() + bookSlug.slice(1).replace(/-/g, ' ')
+				: 'Selected Book');
 
+		const pageTitle = `${bookName} Translators`;
+		const pageDescription = `Browse a list of translators and their publication details for ${bookName}.`;
 		return {
+			title: pageTitle,
+			description: pageDescription,
 			translators: translatorsArray,
-			book: book // Pass the book param along if the component might need it for context
+			book: bookSlug // Pass the original slug as 'book' if the page component uses it
 		};
 	} catch (err: any) {
-		if (err.code === 'MODULE_NOT_FOUND') {
-			throw error(404, `Translator data not found for book: ${book}`);
+		// Attempt to get bookName for error message even if import fails, if bookSlug was valid
+		const bookDataForError = books.find((b) => b.slug === bookSlug);
+		const bookNameForError =
+			bookDataForError?.title ||
+			(bookSlug
+				? bookSlug.charAt(0).toUpperCase() + bookSlug.slice(1).replace(/-/g, ' ')
+				: 'the selected book');
+
+		// Check for common dynamic import failure, often related to missing files
+		if (
+			err.message?.includes('Failed to fetch dynamically imported module') ||
+			err.code === 'MODULE_NOT_FOUND'
+		) {
+			throw error(404, `Translator data file not found for ${bookNameForError}.`);
 		}
+		// General error
 		throw error(
-			500,
-			`Failed to load translator data for ${book}: ${err.message || 'Unknown error'}`
+			err.status || 500, // Use error status if available, else 500
+			`Could not load translator data for ${bookNameForError}: ${err.message || 'Unknown error'}`
 		);
 	}
 };
