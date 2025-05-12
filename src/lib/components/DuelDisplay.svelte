@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import { getDuelHistory, recordDuel } from '$lib/data/duelHistory.svelte';
-	import TranslationCard from './ComparisonPassageCard.svelte';
-	import type { DuelRecord, SampleTextEntry, TranslationInfo, TranslationSample } from '$lib/types';
+	import ComparisonPassageCard from './ComparisonPassageCard.svelte';
+	import type { DuelRecord, TranslationInfo, TranslationSample } from '$lib/types';
 
 	let {
 		sample,
@@ -92,10 +92,10 @@
 		<div class="grid items-stretch gap-4 md:grid-cols-2">
 			<div class="flex h-full flex-col space-y-4">
 				<p class="mb-1 text-sm font-bold text-gray-600 uppercase">A</p>
-				<TranslationCard
+				<ComparisonPassageCard
 					text={duelPair()!.left.text}
 					isWinner={hasVoted && winnerId === duelPair()!.left.translation_id}
-					class="min-h-[28rem]"
+					class="md:min-h-[28rem]"
 				/>
 				<div class="min-h-[2.5rem] text-center text-sm text-gray-700">
 					{#if hasVoted}
@@ -109,10 +109,10 @@
 
 			<div class="flex h-full flex-col space-y-4">
 				<p class="mb-1 text-sm font-bold text-gray-600 uppercase">B</p>
-				<TranslationCard
+				<ComparisonPassageCard
 					text={duelPair()!.right.text}
 					isWinner={hasVoted && winnerId === duelPair()!.right.translation_id}
-					class="min-h-[28rem]"
+					class="md:min-h-[28rem]"
 				/>
 				<div class="min-h-[2.5rem] text-center text-sm text-gray-700">
 					{#if hasVoted}
