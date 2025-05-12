@@ -1,0 +1,183 @@
+{
+	"book": 12,
+	"sample_id": "12-180",
+	"lines": [180, 188],
+	"description": "The Song of the Sirens",
+	"translations": [
+		{
+			"translation_id": "chapman",
+			"text": [
+				"Come here, thou, worthy of a world of praise;",
+				"That dost so high, the <i>Grecian</i> glory raise;",
+				"<i>Vlysses</i>! stay thy ship; and that song heare",
+				"That none past euer, but it bent his eare:",
+				"But left him rauish, and instructed more",
+				"By vs, then any, euer heard before.",
+				"For we know all things whatsoeuer were",
+				"In wide <i>Troy</i> labour'd; whatsoeuer there",
+				"The <i>Grecians</i> and the <i>Troians</i> both sustain'd;",
+				"By those high issues that the Gods ordain'd.",
+				"And whatsoeuer, all the earth can show",
+				"T'informe a knowledge of desert, we know."
+			]
+		},
+		{
+			"translation_id": "pope",
+			"text": [
+				"O stay, oh pride of <i>Greece</i>! <i>Ulysses</i> stay!",
+				"O cease thy course, and listen to our lay!",
+				"Blest is the man ordain’d our voice to hear,",
+				"The song instructs the soul, and charms the ear.",
+				"Approach! thy soul shall into raptures rise!",
+				"Approach! and learn new wisdom from the wise!",
+				"We know whate’er the Kings of mighty name",
+				"Atchiev’d at <i>Ilion</i> in the field of fame;",
+				"Whate’er beneath the sun’s bright journey lies.",
+				"O stay, and learn new wisdom from the wise!"
+			]
+		},
+		{
+			"translation_id": "cowper",
+			"text": [
+				"Ulysses, Chief by ev’ry tongue extoll’d,",
+				"Achaia’s boast, oh hither steer thy bark!",
+				"Here stay thy course, and listen to our lay!",
+				"These shores none passes in his sable ship",
+				"Till, first, the warblings of our voice he hear,",
+				"Then, happier hence and wiser he departs.",
+				"All that the Greeks endured, and all the ills",
+				"Inflicted by the Gods on Troy, we know,",
+				"Know all that passes on the boundless earth."
+			]
+		},
+		{
+			"translation_id": "worsley",
+			"text": [
+				"<i>Tither, Odysseus, great Achaian name,</i>",
+				"<i>Turn thy swift keel and listen to our lay ;</i>",
+				"<i>Since never pilgrim near these regions came</i>",
+				"<i>In black ship, on the azure fields astray,</i>",
+				"<i>But heard our sweet voice ere he sailed away,</i>",
+				"<i>And in his joy passed on, with ampler mind.</i>",
+				"<i>We know what labours were in ancient day</i>",
+				"<i>Wrought in wide Troia, as the gods assigned ;</i>",
+				"<i>We know from land to land all toils of all mankind.</i>"
+			]
+		},
+		{
+			"translation_id": "butler",
+			"text": [
+				"'Come here,' they sang, 'renowned Ulysses, honour to the Achaean name, and listen to our two voices. No one ever sailed past us without staying to hear the enchanting sweetness of our song- and he who listens will go on his way not only charmed, but wiser, for we know all the ills that the gods laid upon the Argives and Trojans before Troy, and can tell you everything that is going to happen over the whole world.'"
+			]
+		},
+		{
+			"translation_id": "murray",
+			"text": [
+				"‘Come hither, as thou farest, renowned Odysseus, great glory of the Achaeans; stay thy ship that thou mayest listen to the voice of us two. For never yet has any man rowed past this isle in his black ship until he has heard the sweet voice from our lips. Nay, he has joy of it, and goes his way a wiser man. For we know all the toils that in wide Troy the Argives and Trojans endured through the will of the gods, and we know all things that come to pass upon the fruitful earth.’"
+			]
+		},
+		{
+			"translation_id": "rieu",
+			"text": [
+				"‘ Draw near,’ they sang, ‘ illustrious Odysseus, flower of Achaean chivalry, and bring your ship to rest so that you may hear our voices. No seaman ever sailed his black ship past this spot without listening to the sweet tones that flow from our lips, and none that listened has not been delighted and gone on a wiser man. For we know all that the Argives and Trojans suffered on the broad plain of Troy by the will of the gods, and we have foreknowledge of all that is going to happen on this fruitful earth.’"
+			]
+		},
+		{
+			"translation_id": "fitzgerald",
+			"text": [
+				"<i>This way, oh turn your bows,</i>",
+				"    <i>Akhaia’s glory,</i>",
+				"<i>As all the world allows—</i>",
+				"    <i>Moor and be merry.</i>",
+				"<br>",
+				"<i>Sweet coupled airs we sing.</i>",
+				"    <i>No lonely seafarer</i>",
+				"<i>Holds clear of entering</i>",
+				"    <i>Our green mirror.</i>",
+				"<br>",
+				"<i>Pleased by each purling note</i>",
+				"    <i>Like honey twining</i>",
+				"<i>From her throat and my throat,</i>",
+				"    <i>Who lies a-pining?</i>",
+				"<br>",
+				"<i>Sea rovers here take joy</i>",
+				"    <i>Voyaging onward,</i>",
+				"<i>As from our song of Troy</i>",
+				"<i>Greybeard and rower-boy</i>",
+				"    <i>Goeth more learnèd.</i>",
+				"<br>",
+				"<i>All feats on that great field</i>",
+				"    <i>In the long warfare,</i>",
+				"<i>Dark days the bright gods willed,</i>",
+				"    <i>Wounds you bore there,</i>",
+				"<br>",
+				"<i>Argos’ old soldiery</i>",
+				"    <i>On Troy beach teeming,</i>",
+				"<i>Charmed out of time we see.</i>",
+				"<i>No life on earth can be</i>",
+				"    <i>Hid from our dreaming.</i>"
+			]
+		},
+		{
+			"translation_id": "lattimore",
+			"text": [
+				"    “Come this way, honored Odysseus,",
+				"    great glory of the Achaians, and stay your ship, so that you can listen",
+				"    here to our singing; for no one else has ever sailed past this place in his",
+				"    black ship until he has listened to the honey-sweet voice that issues from",
+				"    our lips; then goes on, well pleased, knowing more than ever he did; for we",
+				"    know everything that the Argives and Trojans did and suffered in wide",
+				"    Troy through the gods’ despite.",
+				"    Over all the generous earth we know everything that happens.”"
+			]
+		},
+		{
+			"translation_id": "fagles",
+			"text": [
+				"Come closer, famous Odysseus—Achaea’s pride and glory—",
+				"moor your ship on our coast so you can hear our song!",
+				"Never has any sailor passed our shores in his black craft",
+				"until he has heard the honeyed voices pouring from our lips,",
+				"and once he hears to his heart’s content sails on, a wiser man.",
+				"We know all the pains that Achaeans and Trojans once endured",
+				"on the spreading plain of Troy when the gods willed it so—",
+				"all that comes to pass on the fertile earth, we know it all!"
+			]
+		},
+		{
+			"translation_id": "lombardo",
+			"text": [
+				"Come hither, Odysseus,",
+				"glory of the Achaeans,",
+				"Stop your ship",
+				"so you can hear our voices.",
+				"No one has ever sailed",
+				"his black ship past here",
+				"Without listening to the honeyed",
+				"sound from our lips.",
+				"He journeys on delighted",
+				"and knows more than before.",
+				"For we know everything",
+				"that the Greeks and Trojans",
+				"Suffered in wide Troy",
+				"by the will of the gods.",
+				"We know all that happens",
+				"on the teeming earth."
+			]
+		},
+		{
+			"translation_id": "wilson",
+			"text": [
+				"Odysseus! Come here! You are well-known",
+				"from many stories! Glory of the Greeks!",
+				"Now stop your ship and listen to our voices.",
+				"All those who pass this way hear honeyed song,",
+				"poured from our mouths. The music brings them joy,",
+				"and they go on their way with greater knowledge,",
+				"since we know everything the Greeks and Trojans",
+				"suffered in Troy, by gods’ will; and we know",
+				"whatever happens anywhere on earth."
+			]
+		}
+	]
+}

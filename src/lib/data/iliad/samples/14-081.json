@@ -1,0 +1,114 @@
+{
+	"book": 14,
+	"sample_id": "14-81",
+	"lines": [81, 81],
+	"description": "The Wisdom of Retreat",
+	"translations": [
+		{
+			"translation_id": "chapman",
+			"text": [
+				"It is not any shame to flie, from ill, although by night:",
+				"Knowne ill, he better does that flies, then he it takes in fight."
+			]
+		},
+		{
+			"translation_id": "pope",
+			"text": [
+				"Better from Evils, well foreseen, to run,",
+				"Than perish in the Danger we may shun."
+			]
+		},
+		{
+			"translation_id": "cowper",
+			"text": ["Wiser him I deem", "Who ’scapes his foe, than whom his foe enthralls."]
+		},
+		{
+			"translation_id": "buckley",
+			"text": ["It is better for a flying man to escape from evil, than to be taken."]
+		},
+		{
+			"translation_id": "bryant",
+			"text": ["better is his fate", "Who flees from harm than his whom harm o'ertakes."]
+		},
+		{
+			"translation_id": "caldcleugh",
+			"text": [
+				"To fly from evil no dishonor is.",
+				"E'en in the night ; far better so to do,",
+				"Than that our army should all captured be."
+			]
+		},
+		{
+			"translation_id": "butler",
+			"text": ["It is better for a man that he should fly and be saved than be caught and killed."]
+		},
+		{
+			"translation_id": "murray",
+			"text": ["Better it is if one fleeth from ruin and escapeth, than if he be taken."]
+		},
+		{
+			"translation_id": "rouse",
+			"text": ["Better fight and run away than tarry to be caught next day."]
+		},
+		{
+			"translation_id": "rieu",
+			"text": ["It’s better to save one’s skin by running than to be caught."]
+		},
+		{
+			"translation_id": "lattimore",
+			"text": ["The man does better who runs from disaster than he who is caught by it."]
+		},
+		{ "translation_id": "graves", "text": ["The quicker you run, I say, the longer you live!"] },
+		{
+			"translation_id": "rees",
+			"text": ["Far better to flee and escape", "Than stay and be taken."]
+		},
+		{
+			"translation_id": "fitzgerald",
+			"text": ["Better a man", "should leave the worst behind him than be caught."]
+		},
+		{
+			"translation_id": "hammond",
+			"text": ["better to run and escape disaster than be caught in it."]
+		},
+		{
+			"translation_id": "fagles",
+			"text": ["Better to flee from death than feel its grip."]
+		},
+		{
+			"translation_id": "lombardo",
+			"text": ["Better to give evil the slip than be caught by it."]
+		},
+		{
+			"translation_id": "johnston",
+			"text": [
+				"It’s better to escape one’s own destruction—",
+				"to run off—than let it overtake you."
+			]
+		},
+		{
+			"translation_id": "kline",
+			"text": ["Better to flee and save ourselves than be taken."]
+		},
+		{
+			"translation_id": "verity",
+			"text": ["it is better for a man to flee and escape ruin than to be captured."]
+		},
+		{
+			"translation_id": "mitchell",
+			"text": ["It is better to run and escape death than to be killed here."]
+		},
+		{
+			"translation_id": "green",
+			"text": ["Escape by flight is better than getting caught."]
+		},
+		{
+			"translation_id": "alexander",
+			"text": ["it is better that a fleeing man escape evil than is captured."]
+		},
+		{
+			"translation_id": "wilson",
+			"text": ["You see, when things go wrong,", "escape is better than captivity."]
+		}
+	]
+}

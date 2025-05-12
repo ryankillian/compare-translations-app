@@ -1,0 +1,112 @@
+{
+	"book": 11,
+	"sample_id": "11-488",
+	"lines": [488, 491],
+	"description": "Achilles in the Underworld: “Better to Be a Slave…”",
+	"translations": [
+		{
+			"translation_id": "chapman",
+			"text": [
+				"Vrge not my death to me, nor rub that wound;",
+				"I rather wish, to liue in earth a Swaine,",
+				"Or serue a Swaine for hire, that scarce can gaine",
+				"Bread to sustaine him; then (that life once gone)",
+				"Of all the dead, sway the Imperiall thone."
+			]
+		},
+		{
+			"translation_id": "pope",
+			"text": [
+				"Talk not of ruling in this dol’rous gloom,",
+				"Nor think vain words (he cry’d) can ease my doom.",
+				"Rather I chuse laboriously to bear",
+				"A weight of woes, and breathe the vital air,",
+				"A slave to some poor hind that toils for bread,",
+				"Than reign the sceptr’d monarch of the dead."
+			]
+		},
+		{
+			"translation_id": "cowper",
+			"text": [
+				"Renown’d Ulysses! think not death a theme",
+				"Of consolation; I had rather live",
+				"The servile hind for hire, and eat the bread",
+				"Of some man scantily himself sustain’d,",
+				"Than sov’reign empire hold o’er all the shades."
+			]
+		},
+		{
+			"translation_id": "worsley",
+			"text": [
+				"‘Scoff not at death,’ he answered, ‘noble chief!",
+				"- Rather would I in the sun’s warmth divine",
+				"Serve a poor churl who drags his days in grief,",
+				"Than the whole lordship of the dead were mine.‘"
+			]
+		},
+		{
+			"translation_id": "butler",
+			"text": [
+				"‘Say not a word,’ he answered, ‘in death’s favour; I would rather be a paid servant in a poor man’s house and be above ground than king of kings among the dead."
+			]
+		},
+		{
+			"translation_id": "murray",
+			"text": [
+				"Nay, seek not to speak soothingly to me of death, glorious Odysseus. I should choose, so I might live on earth, to serve as the hireling of another, of some portionless man whose livelihood was but small, rather than to be lord over all the dead that have perished. "
+			]
+		},
+		{
+			"translation_id": "rieu",
+			"text": [
+				"‘My lord Odysseus,’ he replied, ‘spare me your praise of Death. Put me on earth again, and I would rather be a serf in the house of some landless man, with little enough for himself to hve on, than king of all these dead men that have done with life.’"
+			]
+		},
+		{
+			"translation_id": "fitzgerald",
+			"text": [
+				"‘Let me hear no smooth talk",
+				"of death from you, Odysseus, light of councils.",
+				"Better, I say, to break sod as a farm hand",
+				"for some poor country man, on iron rations,",
+				"than lord it over all the exhausted dead."
+			]
+		},
+		{
+			"translation_id": "lattimore",
+			"text": [
+				"O shining Odysseus, never try to console me for dying.",
+				"I would rather follow the plow as thrall to another",
+				"man, one with no land allotted him and not much to live on,",
+				"than be a king over all the perished dead."
+			]
+		},
+		{
+			"translation_id": "fagles",
+			"text": [
+				"No winning words about death to <i>me</i>, shining Odysseus!",
+				"By god, I’d rather slave on earth for another man—",
+				"some dirt-poor tenant farmer who scrapes to keep alive—",
+				"than rule down here over all the breathless dead."
+			]
+		},
+		{
+			"translation_id": "lombardo",
+			"text": [
+				"Don’t try to sell me on death, Odysseus.",
+				"I’d rather be a hired hand back up on earth,",
+				"Slaving away for some poor dirt farmer",
+				"Than lord it over all these withered dead."
+			]
+		},
+		{
+			"translation_id": "wilson",
+			"text": [
+				"Odysseus, you must not comfort me",
+				"for death. I would prefer to be a workman,",
+				"hired by a poor man on a peasant farm,",
+				"than rule as king of all the dead."
+			]
+		}
+	]
+}

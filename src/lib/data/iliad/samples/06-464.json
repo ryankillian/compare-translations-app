@@ -1,0 +1,148 @@
+{
+	"book": 2,
+	"sample_id": "6-464",
+	"lines": [464, 465],
+	"description": "Hector’s Farewell to Andromache",
+	"translations": [
+		{
+			"translation_id": "chapman",
+			"text": [
+				"But that day shall not wound mine eyes; the solide heape of night",
+				"Shall interpose, and stop mine eares, against thy plaints, and plight."
+			]
+		},
+		{
+			"translation_id": "pope",
+			"text": [
+				"May I lie cold before that dreadful Day,",
+				"Press'd with a Load of Monumental Clay!",
+				"Thy <i>Hector</i> wrapt in everlasting Sleep,",
+				"Shall neither hear thee sigh, nor see thee weep."
+			]
+		},
+		{
+			"translation_id": "cowper",
+			"text": [
+				"But may I rest beneath my hill of earth",
+				"Or ere that day arrive! I would not live",
+				"To hear thy cries, and see thee torn away."
+			]
+		},
+		{
+			"translation_id": "buckley",
+			"text": [
+				"But may the heaped earth cover me dead, before I hear of this lamentation and abduction."
+			]
+		},
+		{
+			"translation_id": "bryant",
+			"text": [
+				"0, let the earth",
+				"Be heaped above my head in death before",
+				"I hear thy cries as thou art borne away!"
+			]
+		},
+		{
+			"translation_id": "caldcleugh",
+			"text": ["But may this head beneath the sod be laid ", "Ere I a witness of thy sorrows be."]
+		},
+		{
+			"translation_id": "butler",
+			"text": [
+				"May I lie dead under the barrow that is heaped over my body ere I hear your cry as they carry you into bondage."
+			]
+		},
+		{
+			"translation_id": "murray",
+			"text": [
+				"But let me be dead, and let the heaped-up earth cover me, ere I hear thy cries as they hale thee into captivity."
+			]
+		},
+		{
+			"translation_id": "rouse",
+			"text": [
+				"May I be dead and buried deep in the earth before I hear your cries and see you dragged away!"
+			]
+		},
+		{
+			"translation_id": "rieu",
+			"text": [
+				"Ah, may the earth lie deep on my dead body before I hear the screams you utter as they drag you off!"
+			]
+		},
+		{
+			"translation_id": "lattimore",
+			"text": [
+				"But may I be dead and the piled earth hide me under before I",
+				"hear you crying and know by this that they drag you captive."
+			]
+		},
+		{
+			"translation_id": "fitzgerald",
+			"text": [
+				"Let me be hidden dark down in my grave",
+				"before I hear your cry or know you captive!"
+			]
+		},
+		{
+			"translation_id": "hammond",
+			"text": [
+				"But may I be dead and the heaped earth cover me, before I hear your screams and the sound of you being dragged away."
+			]
+		},
+		{
+			"translation_id": "fagles",
+			"text": [
+				"No, no",
+				"let the earth come piling over my dead body",
+				"before I hear your cries. I hear you dragged away!"
+			]
+		},
+		{
+			"translation_id": "lombardo",
+			"text": [
+				"But may I be dead",
+				"And the earth heaped up above me",
+				"Before I hear your cry as you are dragged away"
+			]
+		},
+		{
+			"translation_id": "johnston",
+			"text": [
+				"May I lie dead,",
+				"hidden deep under a burial mound,",
+				"before I hear about your screaming,",
+				"as you are dragged away."
+			]
+		},
+		{
+			"translation_id": "kline",
+			"text": [
+				"May I be dead, and the earth piled above me, before I hear your cries as they drag you away."
+			]
+		},
+		{
+			"translation_id": "mitchell",
+			"text": [
+				"But may I be dead, with the cold earth piled up upon me,",
+				"before I can hear you wail as they drag you away."
+			]
+		},
+		{
+			"translation_id": "alexander",
+			"text": [
+				"But may the heaped earth cover me over dead",
+				"before I ever hear your cry as you are dragged away."
+			]
+		},
+		{
+			"translation_id": "wilson",
+			"text": [
+				"But as for me, I hope I will be dead,",
+				"and lying underneath a pile of earth,",
+				"so that I do not have to hear your screams",
+				"or watch when they are dragging you away."
+			]
+		}
+	]
+}
