@@ -51,3 +51,16 @@
 		</li>
 	{/each}
 </ul>
+
+<section class="mt-8 border-t border-gray-200 pt-6 text-center">
+	<div
+		class="mx-auto max-w-2xl rounded-md border border-blue-200 bg-blue-50 p-4 text-sm text-blue-700"
+	>
+		<p class="font-medium">Please Note:</p>
+		<p class="mt-1">
+			This site is currently in active development. Your votes are stored locally on your device
+			only. More features and aggregated results are planned for the future! For more details, see
+			our <a href="/about" class="font-semibold text-blue-800 hover:underline">About page</a>.
+		</p>
+	</div>
+</section>
