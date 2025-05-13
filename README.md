@@ -2,6 +2,10 @@
 
 A web application to help you choose which English translation of literary classics best fits your personal reading preference.
 
+## 🚀 Live Site
+
+Deployed at: [https://comparetranslations.com/](https://comparetranslations.com/)
+
 ## 🎯 Purpose
 
 Navigating the many translations of works like _The Iliad_ or _The Odyssey_ can be challenging. This tool aims to simplify that decision by allowing users to:
@@ -28,10 +32,6 @@ Navigating the many translations of works like _The Iliad_ or _The Odyssey_ can 
 - **Styling:** Tailwind CSS
 - **Client-Side Storage:** Browser `localStorage` (for user votes and preferences)
 - **Deployment:** Vercel
-
-## 🚀 Live Site
-
-Deployed at: [https://comparetranslations.vercel.app/](https://comparetranslations.vercel.app/)
 
 ## 🗂️ Project Structure & Page Types
 
